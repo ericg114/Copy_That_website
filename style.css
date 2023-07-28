@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffcc; 
+}
+
+header {
+    background-color: #ffffcc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline; 
+    border-bottom: 1px solid black; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+
+header img {
+    width: 150px;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.hero-section {
+    position: relative; 
+    background-image: url("burger_king_hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 60px; 
+    color: #c67116;
+}
+
+.hero-text {
+    text-align: center;
+    padding-right: 99px; 
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+.hero-image img {
+    width: 800px; 
+    border-radius: 5px;
+}
+
+.menu-section {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-item {
+    margin: 10px;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ed1c24;
+    border-radius: 5px;
+}
+
+section.white-section {
+    background-color: #f6f6f4; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section.white-section h2 {
+    margin-bottom: 20px;
+}
+
+section.white-section .section-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.white-section .section-item {
+    margin: 10px;
+}
+
+section.white-section .section-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+section.white-section .section-item p {
+    margin-top: 10px;
+}
+
+.meal-row {
+    background-color: #ffffcc; 
+    padding: 20px;
+    text-align: center;
+}
+
+.meal-row h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.meal-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.meal-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bigger-row {
+    background-color: #ffffcc; 
+    padding: 40px;
+    text-align: center;
+}
+
+.bigger-row-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bigger-row-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bigger-row-caption {
+    text-align: right;
+}
+
+.bigger-row-caption h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.bigger-row-caption p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.app-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.app-icons img {
+    width: 120px;
+    height: auto;
+}
+
+.app-disclaimer {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.2;
+}
+
+.text-row {
+    background-color: #ffffcc; 
+    padding: 20px;
+    text-align: center;
+}
+
+.text-row p {
+    font-size: 14px;
+    color: #888;
+}
+
+.split-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.split-section .image-description {
+    flex: 1;
+    padding: 20px;
+}
+
+.split-section img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.finder-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.finder-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ffffcc; 
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline; 
+    border-top: 1px solid black; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
